@@ -95,18 +95,14 @@
          .reenterPassword_li,
          .givenName_li,
          .surname_li,
-         .displayName_li {
+         .displayName_li,
+         .buttons{
             display: none;
             visbility: hidden;
          }
          .attrEntry a.helpLink:last-child {
             display: none;
             visbility: hidden;
-         }
-
-         .verifyCode:focus + .newPassword_li{
-            display:block;
-            visibility: visible;
          }
       </style>
       <a name="top"></a>
@@ -257,6 +253,7 @@
          		$('.givenName_li').show();
          		$('.surname_li').show();
          		$('.displayName_li').show();
+         		$('.buttons').show();
          });	
          }
          
