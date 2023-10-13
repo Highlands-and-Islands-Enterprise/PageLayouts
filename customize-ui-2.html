@@ -91,8 +91,8 @@
          margin-left: 10px;
          }
          /* Input fields initial state */
-         .newPassword_li,
-         .reenterPassword_li,
+         //.newPassword_li,
+         //.reenterPassword_li,
          .givenName_li,
          .surname_li,
          .displayName_li,
@@ -270,7 +270,9 @@
          		$('#cancel').show();
             });
              $('#email_ver_but_verify').on('click', function() {                          
-         		$('#continue').show();
+         		$('.newPassword_li').display = list-item;
+         		$('.reenterPassword_li').display = list-item;
+               $('#continue').show();
          		$('#cancel').show();
             });
             //#Continue button
