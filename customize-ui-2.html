@@ -275,11 +275,8 @@
             });
             //#Continue button
          	$('#continue').on('click', function() {
-         		$('.newPassword_li').show();
-         		$('.reenterPassword_li').show();
-         		$('.givenName_li').show();
-         		$('.surname_li').show();
-         		$('.displayName_li').show();
+         		$('.newPassword_li').display = block;
+         		$('.reenterPassword_li').display = block;
          		$('#continue').show();
          		$('#cancel').show();
             });
